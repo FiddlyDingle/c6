@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/plugin.schema.json",
+  "title": "Cerb AI Assistant Plugin Schema",
+  "description": "Defines the structure and metadata for Cerb AI Assistant plugins.",
+  "type": "object",
+  "required": ["name", "version", "description"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the plugin."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+(\\.\\d+)?$",
+      "description": "Semantic version number (e.g., 1.0.0)."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of what the plugin does."
+    },
+    "author": {
+      "type": "string",
+      "description": "Name of the plugin author or organization.",
+      "default": "Unknown"
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "List of other plugin names this plugin depends on.",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "capabilities": {
+      "type": "array",
+      "description": "List of capability tags describing what the plugin can do.",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "enabled": {
+      "type": "boolean",
+      "description": "Whether the plugin should be enabled on load.",
+      "default": true
+    },
+    "entry_point": {
+      "type": "string",
+      "description": "Optional Python module path or file name for the plugin's main class file."
+    },
+    "tools": {
+      "type": "array",
+      "description": "Optional list of tools provided by this plugin.",
+      "items": {
+        "type": "object",
+        "required": ["name", "description", "category"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Unique identifier for the tool."
+          },
+          "description": {
+            "type": "string",
+            "description": "What the tool does."
+          },
+          "category": {
+            "type": "string",
+            "description": "Category for grouping tools (e.g., file_ops, web_ops, system_ops)."
+          },
+          "parameters": {
+            "type": "array",
+            "description": "Parameters accepted by the tool.",
+            "items": {
+              "type": "object",
+              "required": ["name", "type"],
+              "properties": {
+                "name": { "type": "string" },
+                "type": { "type": "string" },
+                "required": { "type": "boolean", "default": false },
+                "description": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "hooks": {
+      "type": "array",
+      "description": "Optional lifecycle hooks implemented by the plugin.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "on_tool_execution",
+          "on_conversation_update"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

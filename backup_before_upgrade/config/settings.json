@@ -1,0 +1,24 @@
+{
+    "lm_studio": {
+        "host": "localhost",
+        "port": 1234,
+        "endpoint": "/v1/chat/completions",
+        "model": "local-model"
+    },
+    "memory": {
+        "database_path": "data/memory.db",
+        "max_conversations": 1000,
+        "importance_threshold": 0.3
+    },
+    "tools": {
+        "enabled": true,
+        "safe_mode": true,
+        "timeout_seconds": 30
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/agent.log",
+        "max_size_mb": 10
+    },
+    "ui_plugin": "terminal_ui"
+}

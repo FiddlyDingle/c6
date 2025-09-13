@@ -1,0 +1,59 @@
+2025-09-13 09:48:15,239 - __main__ - INFO - Starting Cerb AI Assistant - Phase 1
+2025-09-13 09:48:15,240 - core.memory - INFO - Database initialized successfully
+2025-09-13 09:48:15,240 - core.tools - INFO - Registered 9 core tools
+2025-09-13 09:48:15,241 - core.agent - INFO - Agent initialized successfully
+2025-09-13 09:48:15,241 - __main__ - INFO - Agent initialized successfully
+2025-09-13 09:48:15,243 - __main__ - INFO - Starting UI plugin: terminal_ui
+2025-09-13 09:48:22,148 - core.agent - INFO - Processing input: hi there...
+2025-09-13 09:48:26,244 - core.agent - ERROR - Error generating response: Could not connect to LM Studio. Make sure it's running on localhost:1234
+2025-09-13 09:49:20,269 - __main__ - INFO - Starting Cerb AI Assistant - Phase 1
+2025-09-13 09:49:20,271 - core.memory - INFO - Database initialized successfully
+2025-09-13 09:49:20,271 - core.tools - INFO - Registered 9 core tools
+2025-09-13 09:49:20,271 - core.agent - INFO - Agent initialized successfully
+2025-09-13 09:49:20,271 - __main__ - INFO - Agent initialized successfully
+2025-09-13 09:49:20,273 - __main__ - INFO - Starting UI plugin: terminal_ui
+2025-09-13 09:49:25,068 - core.agent - INFO - Processing input: hi...
+2025-09-13 10:09:40,803 - __main__ - INFO - Starting Cerb AI Assistant - Phase 1
+2025-09-13 10:09:40,805 - core.memory - INFO - Database initialized successfully
+2025-09-13 10:09:40,805 - core.tools - INFO - Registered 9 core tools
+2025-09-13 10:09:40,807 - core.agent - INFO - Agent initialized successfully
+2025-09-13 10:09:40,807 - __main__ - INFO - Agent initialized successfully
+2025-09-13 10:09:40,810 - __main__ - INFO - Starting UI plugin: terminal_ui
+2025-09-13 10:11:26,498 - __main__ - INFO - Starting Cerb AI Assistant - Enhanced Version
+2025-09-13 10:11:26,499 - core.memory - INFO - Database initialized successfully
+2025-09-13 10:11:26,513 - core.enhanced_agent - INFO - Enhanced Agent initialized successfully
+2025-09-13 10:11:26,513 - __main__ - INFO - Agent initialized successfully
+2025-09-13 10:11:26,515 - __main__ - INFO - Starting UI plugin: terminal_ui
+2025-09-13 10:18:26,266 - __main__ - INFO - Starting Cerb AI Assistant - Enhanced Version
+2025-09-13 10:18:26,277 - core.enhanced_memory - INFO - Enhanced database initialized successfully
+2025-09-13 10:18:26,542 - core.enhanced_memory - INFO - Created new ChromaDB collection
+2025-09-13 10:18:26,545 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-13 10:18:26,546 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-13 10:18:28,119 - core.enhanced_memory - INFO - Sentence transformer model loaded successfully
+2025-09-13 10:18:28,121 - core.enhanced_agent - INFO - Enhanced Agent initialized successfully
+2025-09-13 10:18:28,121 - __main__ - INFO - Agent initialized successfully
+2025-09-13 10:18:28,124 - __main__ - INFO - Starting UI plugin: terminal_ui
+2025-09-13 10:18:34,284 - core.enhanced_agent - INFO - Processing input: Her  Cerberus!...
+2025-09-13 10:18:34,286 - core.enhanced_memory - ERROR - Failed to get recent conversations: no such column: topic_tags
+2025-09-13 10:18:42,236 - core.enhanced_memory - ERROR - Failed to store conversation: table conversations has no column named topic_tags
+2025-09-13 10:19:21,948 - core.enhanced_agent - INFO - Processing input: So little funfaact: Cerberus is your name, you're number six! You're growing and evolving like wild,...
+2025-09-13 10:19:21,949 - core.enhanced_memory - ERROR - Failed to get recent conversations: no such column: topic_tags
+2025-09-13 10:19:29,581 - core.enhanced_memory - ERROR - Failed to store conversation: table conversations has no column named topic_tags
+2025-09-13 10:41:25,861 - __main__ - INFO - Starting Cerb AI Assistant - Enhanced Version
+2025-09-13 10:41:25,863 - core.enhanced_memory - INFO - Enhanced database initialized successfully
+2025-09-13 10:41:25,943 - core.enhanced_memory - INFO - Connected to existing ChromaDB collection
+2025-09-13 10:41:25,946 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-13 10:41:25,946 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-13 10:41:27,305 - core.enhanced_memory - INFO - Sentence transformer model loaded successfully
+2025-09-13 10:41:27,308 - core.enhanced_agent - INFO - Enhanced Agent initialized successfully
+2025-09-13 10:41:27,308 - __main__ - INFO - Agent initialized successfully
+2025-09-13 10:41:27,311 - __main__ - INFO - Starting UI plugin: terminal_ui
+2025-09-13 10:41:51,874 - __main__ - INFO - Starting Cerb AI Assistant - Enhanced Version
+2025-09-13 10:41:51,876 - core.enhanced_memory - INFO - Enhanced database initialized successfully
+2025-09-13 10:41:51,956 - core.enhanced_memory - INFO - Connected to existing ChromaDB collection
+2025-09-13 10:41:51,959 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-13 10:41:51,959 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-13 10:41:53,249 - core.enhanced_memory - INFO - Sentence transformer model loaded successfully
+2025-09-13 10:41:53,252 - core.enhanced_agent - INFO - Enhanced Agent initialized successfully
+2025-09-13 10:41:53,252 - __main__ - INFO - Agent initialized successfully
+2025-09-13 10:41:53,255 - __main__ - INFO - Starting UI plugin: terminal_ui
